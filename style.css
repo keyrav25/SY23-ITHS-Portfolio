@@ -1,0 +1,67 @@
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ul li{
+    display:inline;
+    margin-right:20px;
+    margin-left:20px;
+}
+#nav-bar{
+    background-color:#f4cccc;
+    padding:16px;
+    text-align:center;
+    border-style:double;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+   #animation:hover{
+       animation:animation 1s forwards;
+   }
+@keyframes animation{
+    animation
+    from{
+        width:200px;
+        height:200px;
+       
+    }
+to{
+    width:900px;
+    height:900px;
+    repeat:6 times;
+}
+}
+
+
+
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+h1{
+    font-family:Lucida ;
+    text-align:center;
+}
+.home:hover{
+    background-color:#e8e8e8;
+}
+
+.contact:hover{
+    font-size:50px;
+}
+
+#change:hover{
+    color:white;
+}
+#phone:hover .contacts{
+    visibility:visible;
+}
